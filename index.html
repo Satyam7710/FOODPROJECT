@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.K Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+   <header class="header">
+    <a href="#" class="logo"><img src="logo.png" alt="S.K Logo" class="logo-image"></a>
+    <nav class="navbar">
+        <a href="#" style="--i:1"class="active">Home</a>
+        <a href="menu.html" style="--i:2">Menu</a>
+        <a href="chef.html" style="--i:3">Chef</a>
+        <a href="about.html" style="--i:4">About</a>
+        <a href="contact.html" style="--i:5">Contact</a>
+ 
+    </nav>
+   </header>
+   <section class="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Satyam Kumar</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>Welcome to S.K Restaurant, where culinary excellence meets exceptional service. Our establishment is dedicated to providing a memorable dining experience with a focus on quality and taste.
+        <br> Each dish is crafted with the freshest ingredients, ensuring every bite bursts with flavor and creativity   </p> 
+         <div class="home-sci">
+        <a href="https://www.youtube.com/watch?v=HwZQxvuICjM"><i class='bx bxl-youtube'></i></a></a>
+        <a href="https://www.facebook.com/profile.php?id=100023857113486"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/rio_therock/"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <a href="menu.html" class="btn-box"> Menu </a>
+        </div>
+        <span class="home-imgHover"></span>
+    </div>
+   </section>
+   <div id="chef">
+    <h1 id="section">Chef</h1>
+    <div id="chef_row">
+        <div class="chef_col">
+            <div id="img">
+                <img src="1.png">
+            </div>
+            <div>
+                <h4>Knayam</h4>
+            </div>
+        </div>
+        <div class="chef_col">
+            <div id="img">
+                <img src="2.png">
+            </div>
+            <div>
+                <h4>Gordon Ramsay</h4>
+            </div>
+        </div>
+        <div class="chef_col">
+            <div id="img">
+                <img src="3.png">
+            </div>
+            <div>
+                <h4>Mario Batali</h4>
+            </div>
+        </div>
+        <div class="chef_col">
+            <div id="img">
+                <img src="4.png">
+            </div>
+            <div>
+                <h4>Jamie Oliver</h4>
+            </div>
+        </div>
+    </div>
+</div>
+   <section>
+    <div id="about"></div>
+        <h1 id="section">About</h1>
+        <div id="about_row">
+            <div class="about_col">
+            <h1>About Us</h1>
+            <p>
+                At S.K Restaurant, we believe that dining is more than just a meal; it’s an experience. 
+                Established with a passion for culinary artistry, our restaurant is committed to serving dishes that not only satisfy the taste buds but also warm the soul. 
+                Our chefs bring a wealth of experience and creativity to the kitchen, using only the finest ingredients to craft each dish with care and precision. 
+                We take pride in our diverse menu, which blends traditional favorites with innovative flavors, ensuring there's something for everyone to enjoy.
+                From the moment you walk through our doors, you'll be welcomed by a cozy and inviting atmosphere, perfect for family gatherings, romantic dinners, or simply enjoying a meal with friends. 
+                Our attentive staff is here to ensure that every aspect of your visit is perfect, from the first sip of your drink to the last bite of dessert. 
+                At S.K Restaurant, we are dedicated to creating an exceptional dining experience that keeps you coming back for more. 
+                Come and discover why we're the preferred choice for food lovers who crave quality, taste, and hospitality.
+            </p>
+        </div>  
+        <div clsaa="about_col">
+            <div id="about_img">
+                <img src="about.png">
+            </div>
+        </div>
+        </div>
+    </div>
+   </section>
+   <section id="contact">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you! Please fill out the form below and we will get in touch with you shortly.</p>
+        <!-- Redirecting to thank_you.html on form submission -->
+        <form action="thank_you.html" method="thank_you.html">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+   <script src="main.js"></script>
+</body>
+</html>
+
